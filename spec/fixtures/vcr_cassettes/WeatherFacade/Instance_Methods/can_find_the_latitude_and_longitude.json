@@ -1,0 +1,78 @@
+{
+  "http_interactions": [
+    {
+      "request": {
+        "method": "get",
+        "uri": "https://www.mapquestapi.com/geocoding/v1/address?key=gcnQqx1GzPDmGaHgKlvNxeUjTRSj5K2s&location=Paris,France",
+        "body": {
+          "encoding": "US-ASCII",
+          "string": ""
+        },
+        "headers": {
+          "User-Agent": [
+            "Faraday v2.9.0"
+          ],
+          "Accept-Encoding": [
+            "gzip;q=1.0,deflate;q=0.6,identity;q=0.3"
+          ],
+          "Accept": [
+            "*/*"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "Date": [
+            "Mon, 15 Jan 2024 16:23:10 GMT"
+          ],
+          "Content-Type": [
+            "application/json; charset=utf-8"
+          ],
+          "Content-Length": [
+            "791"
+          ],
+          "Connection": [
+            "keep-alive"
+          ],
+          "X-Ratelimit-Limit-2628000": [
+            "1000000000"
+          ],
+          "X-Ratelimit-Remaining-2628000": [
+            "999999995"
+          ],
+          "Ratelimit-Limit": [
+            "1000000000"
+          ],
+          "Ratelimit-Remaining": [
+            "999999995"
+          ],
+          "Ratelimit-Reset": [
+            "236210"
+          ],
+          "X-Powered-By": [
+            "MapQuest"
+          ],
+          "X-Request-Id": [
+            "5f9f3240-b3c2-11ee-9392-cdc181db240d"
+          ],
+          "Access-Control-Allow-Origin": [
+            "*"
+          ],
+          "Etag": [
+            "W/\"317-KLZ2Q1eLATT/EtuMFbFaTIlEZYA\""
+          ]
+        },
+        "body": {
+          "encoding": "ASCII-8BIT",
+          "string": "{\"info\":{\"statuscode\":0,\"copyright\":{\"text\":\"© 2024 MapQuest, Inc.\",\"imageUrl\":\"http://api.mqcdn.com/res/mqlogo.gif\",\"imageAltText\":\"© 2024 MapQuest, Inc.\"},\"messages\":[]},\"options\":{\"maxResults\":-1,\"ignoreLatLngInput\":false},\"results\":[{\"providedLocation\":{\"location\":\"Paris,France\"},\"locations\":[{\"street\":\"\",\"adminArea6\":\"\",\"adminArea6Type\":\"Neighborhood\",\"adminArea5\":\"Paris\",\"adminArea5Type\":\"City\",\"adminArea4\":\"Paris\",\"adminArea4Type\":\"County\",\"adminArea3\":\"IDF\",\"adminArea3Type\":\"State\",\"adminArea1\":\"FR\",\"adminArea1Type\":\"Country\",\"postalCode\":\"\",\"geocodeQualityCode\":\"A5XAX\",\"geocodeQuality\":\"CITY\",\"dragPoint\":false,\"sideOfStreet\":\"N\",\"linkId\":\"0\",\"unknownInput\":\"\",\"type\":\"s\",\"latLng\":{\"lat\":48.85717,\"lng\":2.3414},\"displayLatLng\":{\"lat\":48.85717,\"lng\":2.3414},\"mapUrl\":\"\"}]}]}"
+        }
+      },
+      "recorded_at": "Mon, 15 Jan 2024 16:23:10 GMT"
+    }
+  ],
+  "recorded_with": "VCR 6.2.0"
+}
