@@ -1,7 +1,8 @@
 class YelpService
-
-  def get_restaurants(food, location)
-    get_url("/v3/businesses?location=#{location}&term=#{food}&limit=10")
+  def conn
+    Faraday.new(url: 'https://api.yelp.com/') do |faraday|
+      faraday.headers['Authorization'] = "Bearer #{Rails.application.credentials.yelp[:key]}"
+    end
   end
 
   def get_url(url)
@@ -9,9 +10,7 @@ class YelpService
     JSON.parse(response.body, symbolize_names: true)
   end
 
-  def conn
-    Faraday.new(url: "https://api.yelp.com") do |faraday|
-      faraday.headers["Authorization"] = "Bearer #{Rails.application.credentials.yelp[:key]}"
-    end
+  def food_find(location, type)
+    get_url("v3/businesses/search?location=#{location}&term=#{type}&sort_by=best_match&limit=5")
   end
 end
