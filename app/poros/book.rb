@@ -10,7 +10,7 @@ class Book
     @destination = destination
     @forecast = format_weather(weather_data.current)
     @total_books_found = book_data[:numFound]
-    @books = book_data[:docs]
+    @books = book_results(book_data[:docs])
   end
 end
 
@@ -22,3 +22,18 @@ def format_weather(weather)
     temperature: "#{weather[:temperature]} °F"
   }
 end
+
+def book_results(book_data)
+  book_data.map do |book|
+    format_book(book)
+  end
+end
+
+def format_book(book)
+  {
+    author_name: book[:author_name],
+    title: book[:title],
+    publisher: book[:publisher]
+  }
+end
+

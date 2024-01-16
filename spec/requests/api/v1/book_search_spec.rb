@@ -28,7 +28,7 @@ RSpec.describe 'Book-Search Requests', type: :request do
       expect(attributes[:forecast]).to be_a(Hash)
       expect(attributes[:forecast].keys).to eq([:summary,:temperature])
       expect(attributes[:forecast][:summary]).to be_a(String)
-      expect(attributes[:forecast][:temperature]).to be_a(String) # Adds F to the end of the float
+      expect(attributes[:forecast][:temperature]).to be_a(String)
 
       expect(attributes[:total_books_found]).to be_an(Integer)
 
@@ -36,7 +36,7 @@ RSpec.describe 'Book-Search Requests', type: :request do
       expect(attributes[:books].count).to eq(quantity)
 
       attributes[:books].each do |book|
-        expect(book.keys).to eq([:author_name, :title])
+        expect(book.keys).to eq([:author_name, :title, :publisher])
         expect(book[:author_name]).to be_an(Array)
         expect(book[:author_name].first).to be_a(String)
         expect(book[:title]).to be_a(String)
