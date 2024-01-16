@@ -1,0 +1,69 @@
+{
+  "http_interactions": [
+    {
+      "request": {
+        "method": "get",
+        "uri": "https://openlibrary.org/search.json?limit=5&sort=new&title=boston,ma",
+        "body": {
+          "encoding": "US-ASCII",
+          "string": ""
+        },
+        "headers": {
+          "User-Agent": [
+            "Faraday v2.9.0"
+          ],
+          "Accept-Encoding": [
+            "gzip;q=1.0,deflate;q=0.6,identity;q=0.3"
+          ],
+          "Accept": [
+            "*/*"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "Server": [
+            "nginx/1.18.0 (Ubuntu)"
+          ],
+          "Date": [
+            "Tue, 16 Jan 2024 17:12:09 GMT"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "Transfer-Encoding": [
+            "chunked"
+          ],
+          "Connection": [
+            "keep-alive"
+          ],
+          "Access-Control-Allow-Origin": [
+            "*"
+          ],
+          "Access-Control-Allow-Method": [
+            "GET, OPTIONS"
+          ],
+          "Access-Control-Max-Age": [
+            "86400"
+          ],
+          "X-Ol-Stats": [
+            "\"SR 1 0.059 TT 0 0.060\""
+          ],
+          "Referrer-Policy": [
+            "no-referrer-when-downgrade"
+          ]
+        },
+        "body": {
+          "encoding": "UTF-8",
+          "string": "{\n    \"numFound\": 125,\n    \"start\": 0,\n    \"numFoundExact\": true,\n    \"docs\": [\n        {\n            \"key\": \"/works/OL27919088W\",\n            \"type\": \"work\",\n            \"seed\": [\n                \"/books/OL38158507M\",\n                \"/works/OL27919088W\",\n                \"/authors/OL10417851A\"\n            ],\n            \"title\": \"Wicked Smaaht Boston MA Funny Boston Gift\",\n            \"title_suggest\": \"Wicked Smaaht Boston MA Funny Boston Gift\",\n            \"title_sort\": \"Wicked Smaaht Boston MA Funny Boston Gift\",\n            \"edition_count\": 1,\n            \"edition_key\": [\n                \"OL38158507M\"\n            ],\n            \"publish_date\": [\n                \"2022\"\n            ],\n            \"publish_year\": [\n                2022\n            ],\n            \"first_publish_year\": 2022,\n            \"isbn\": [\n                \"9798803799993\"\n            ],\n            \"last_modified_i\": 1653631624,\n            \"ebook_count_i\": 0,\n            \"ebook_access\": \"no_ebook\",\n            \"has_fulltext\": false,\n            \"public_scan_b\": false,\n            \"publisher\": [\n                \"Independently Published\"\n            ],\n            \"language\": [\n                \"eng\"\n            ],\n            \"author_key\": [\n                \"OL10417851A\"\n            ],\n            \"author_name\": [\n                \"Chris GUERRERO\"\n            ],\n            \"publisher_facet\": [\n                \"Independently Published\"\n            ],\n            \"_version_\": 1767921792785055744,\n            \"author_facet\": [\n                \"OL10417851A Chris GUERRERO\"\n            ]\n        },\n        {\n            \"key\": \"/works/OL28851975W\",\n            \"type\": \"work\",\n            \"seed\": [\n                \"/books/OL42818196M\",\n                \"/books/OL39661257M\",\n                \"/books/OL39661255M\",\n                \"/books/OL39678052M\",\n                \"/books/OL42758769M\",\n                \"/works/OL28851975W\",\n                \"/subjects/archaeology\",\n                \"/authors/OL10677253A\"\n            ],\n            \"title\": \"Archaeology of a Brothel in Nineteenth-Century Boston, MA\",\n            \"title_suggest\": \"Archaeology of a Brothel in Nineteenth-Century Boston, MA\",\n            \"title_sort\": \"Archaeology of a Brothel in Nineteenth-Century Boston, MA\",\n            \"edition_count\": 5,\n            \"edition_key\": [\n                \"OL42818196M\",\n                \"OL39661257M\",\n                \"OL39661255M\",\n                \"OL39678052M\",\n                \"OL42758769M\"\n            ],\n            \"publish_date\": [\n                \"2022\"\n            ],\n            \"publish_year\": [\n                2022\n            ],\n            \"first_publish_year\": 2022,\n            \"isbn\": [\n                \"1000824683\",\n                \"1000824640\",\n                \"1003194338\",\n                \"1032047062\",\n                \"9781000824643\",\n                \"9781032047065\",\n                \"1032047054\",\n                \"9781003194330\",\n                \"9781000824681\",\n                \"9781032047058\"\n            ],\n            \"last_modified_i\": 1670084234,\n            \"ebook_count_i\": 0,\n            \"ebook_access\": \"no_ebook\",\n            \"has_fulltext\": false,\n            \"public_scan_b\": false,\n            \"publisher\": [\n                \"Routledge, Chapman & Hall, Incorporated\",\n                \"Taylor & Francis Group\"\n            ],\n            \"language\": [\n                \"eng\"\n            ],\n            \"author_key\": [\n                \"OL10677253A\"\n            ],\n            \"author_name\": [\n                \"Jade W. Luiz\"\n            ],\n            \"subject\": [\n                \"Archaeology\"\n            ],\n            \"publisher_facet\": [\n                \"Routledge, Chapman & Hall, Incorporated\",\n                \"Taylor & Francis Group\"\n            ],\n            \"subject_facet\": [\n                \"Archaeology\"\n            ],\n            \"_version_\": 1767923322103791616,\n            \"author_facet\": [\n                \"OL10677253A Jade W. Luiz\"\n            ],\n            \"subject_key\": [\n                \"archaeology\"\n            ]\n        },\n        {\n            \"key\": \"/works/OL30683600W\",\n            \"type\": \"work\",\n            \"seed\": [\n                \"/books/OL42173261M\",\n                \"/works/OL30683600W\",\n                \"/authors/OL11231740A\"\n            ],\n            \"title\": \"Tiempo de Perros y Gatos - Libro de Colorear - Boston Terriers, Devon Rex, Basenjis, Dwelf, Spanish Water Dogs y M\\u00e1s &#128041; &#128057; &#128054; &#128049; &#128045;\",\n            \"title_suggest\": \"Tiempo de Perros y Gatos - Libro de Colorear - Boston Terriers, Devon Rex, Basenjis, Dwelf, Spanish Water Dogs y M\\u00e1s &#128041; &#128057; &#128054; &#128049; &#128045;\",\n            \"title_sort\": \"Tiempo de Perros y Gatos - Libro de Colorear - Boston Terriers, Devon Rex, Basenjis, Dwelf, Spanish Water Dogs y M\\u00e1s &#128041; &#128057; &#128054; &#128049; &#128045;\",\n            \"edition_count\": 1,\n            \"edition_key\": [\n                \"OL42173261M\"\n            ],\n            \"publish_date\": [\n                \"2020\"\n            ],\n            \"publish_year\": [\n                2020\n            ],\n            \"first_publish_year\": 2020,\n            \"isbn\": [\n                \"9798654187710\"\n            ],\n            \"last_modified_i\": 1669813763,\n            \"ebook_count_i\": 0,\n            \"ebook_access\": \"no_ebook\",\n            \"has_fulltext\": false,\n            \"public_scan_b\": false,\n            \"publisher\": [\n                \"Independently Published\"\n            ],\n            \"language\": [\n                \"eng\"\n            ],\n            \"author_key\": [\n                \"OL11231740A\"\n            ],\n            \"author_name\": [\n                \"Tatiana Mandala para colorear\"\n            ],\n            \"publisher_facet\": [\n                \"Independently Published\"\n            ],\n            \"_version_\": 1767926260282949632,\n            \"author_facet\": [\n                \"OL11231740A Tatiana Mandala para colorear\"\n            ]\n        },\n        {\n            \"key\": \"/works/OL30623921W\",\n            \"type\": \"work\",\n            \"seed\": [\n                \"/books/OL42097668M\",\n                \"/works/OL30623921W\",\n                \"/authors/OL11208430A\"\n            ],\n            \"title\": \"Amantes de Gatos y Perros - Libro de Colorear para Adultos - Boston Terriers, Devon Rex, Basenjis, Dwelf, Spanish Water Dogs y M\\u00e1s\",\n            \"title_suggest\": \"Amantes de Gatos y Perros - Libro de Colorear para Adultos - Boston Terriers, Devon Rex, Basenjis, Dwelf, Spanish Water Dogs y M\\u00e1s\",\n            \"title_sort\": \"Amantes de Gatos y Perros - Libro de Colorear para Adultos - Boston Terriers, Devon Rex, Basenjis, Dwelf, Spanish Water Dogs y M\\u00e1s\",\n            \"edition_count\": 1,\n            \"edition_key\": [\n                \"OL42097668M\"\n            ],\n            \"publish_date\": [\n                \"2020\"\n            ],\n            \"publish_year\": [\n                2020\n            ],\n            \"first_publish_year\": 2020,\n            \"isbn\": [\n                \"9798665045122\"\n            ],\n            \"last_modified_i\": 1669767355,\n            \"ebook_count_i\": 0,\n            \"ebook_access\": \"no_ebook\",\n            \"has_fulltext\": false,\n            \"public_scan_b\": false,\n            \"publisher\": [\n                \"Independently Published\"\n            ],\n            \"language\": [\n                \"spa\"\n            ],\n            \"author_key\": [\n                \"OL11208430A\"\n            ],\n            \"author_name\": [\n                \"Ella Koch\"\n            ],\n            \"publisher_facet\": [\n                \"Independently Published\"\n            ],\n            \"_version_\": 1767926104960532481,\n            \"author_facet\": [\n                \"OL11208430A Ella Koch\"\n            ]\n        },\n        {\n            \"key\": \"/works/OL30198868W\",\n            \"type\": \"work\",\n            \"seed\": [\n                \"/books/OL41509499M\",\n                \"/works/OL30198868W\",\n                \"/authors/OL9350330A\"\n            ],\n            \"title\": \"Social Media Address Contact Book Six One Seven Boston, MA\",\n            \"title_suggest\": \"Social Media Address Contact Book Six One Seven Boston, MA\",\n            \"title_sort\": \"Social Media Address Contact Book Six One Seven Boston, MA\",\n            \"edition_count\": 1,\n            \"edition_key\": [\n                \"OL41509499M\"\n            ],\n            \"publish_date\": [\n                \"2019\"\n            ],\n            \"publish_year\": [\n                2019\n            ],\n            \"first_publish_year\": 2019,\n            \"isbn\": [\n                \"169100068X\",\n                \"9781691000685\"\n            ],\n            \"last_modified_i\": 1669436595,\n            \"ebook_count_i\": 0,\n            \"ebook_access\": \"no_ebook\",\n            \"has_fulltext\": false,\n            \"public_scan_b\": false,\n            \"publisher\": [\n                \"Independently Published\"\n            ],\n            \"language\": [\n                \"eng\"\n            ],\n            \"author_key\": [\n                \"OL9350330A\"\n            ],\n            \"author_name\": [\n                \"Gray Lenox Journals and Notebooks\"\n            ],\n            \"publisher_facet\": [\n                \"Independently Published\"\n            ],\n            \"_version_\": 1767925424298393600,\n            \"author_facet\": [\n                \"OL9350330A Gray Lenox Journals and Notebooks\"\n            ]\n        }\n    ],\n    \"num_found\": 125,\n    \"q\": \"\",\n    \"offset\": null\n}"
+        }
+      },
+      "recorded_at": "Tue, 16 Jan 2024 17:12:09 GMT"
+    }
+  ],
+  "recorded_with": "VCR 6.2.0"
+}
