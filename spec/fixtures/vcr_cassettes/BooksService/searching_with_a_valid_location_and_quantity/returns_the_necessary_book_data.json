@@ -1,0 +1,69 @@
+{
+  "http_interactions": [
+    {
+      "request": {
+        "method": "get",
+        "uri": "https://openlibrary.org/search.json?limit=3&sort=new&title=boston",
+        "body": {
+          "encoding": "US-ASCII",
+          "string": ""
+        },
+        "headers": {
+          "User-Agent": [
+            "Faraday v2.9.0"
+          ],
+          "Accept-Encoding": [
+            "gzip;q=1.0,deflate;q=0.6,identity;q=0.3"
+          ],
+          "Accept": [
+            "*/*"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "Server": [
+            "nginx/1.18.0 (Ubuntu)"
+          ],
+          "Date": [
+            "Tue, 16 Jan 2024 16:35:34 GMT"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "Transfer-Encoding": [
+            "chunked"
+          ],
+          "Connection": [
+            "keep-alive"
+          ],
+          "Access-Control-Allow-Origin": [
+            "*"
+          ],
+          "Access-Control-Allow-Method": [
+            "GET, OPTIONS"
+          ],
+          "Access-Control-Max-Age": [
+            "86400"
+          ],
+          "X-Ol-Stats": [
+            "\"SR 1 0.061 TT 0 0.061\""
+          ],
+          "Referrer-Policy": [
+            "no-referrer-when-downgrade"
+          ]
+        },
+        "body": {
+          "encoding": "UTF-8",
+          "string": "{\n    \"numFound\": 16887,\n    \"start\": 0,\n    \"numFoundExact\": true,\n    \"docs\": [\n        {\n            \"key\": \"/works/OL28324013W\",\n            \"type\": \"work\",\n            \"seed\": [\n                \"/books/OL38759742M\",\n                \"/works/OL28324013W\",\n                \"/authors/OL4712881A\"\n            ],\n            \"title\": \"Boston Corporation Act 1935\",\n            \"title_suggest\": \"Boston Corporation Act 1935\",\n            \"title_sort\": \"Boston Corporation Act 1935\",\n            \"edition_count\": 1,\n            \"edition_key\": [\n                \"OL38759742M\"\n            ],\n            \"publish_date\": [\n                \"2035\"\n            ],\n            \"publish_year\": [\n                2035\n            ],\n            \"first_publish_year\": 2035,\n            \"isbn\": [\n                \"9780105200260\",\n                \"0105200263\"\n            ],\n            \"last_modified_i\": 1658136719,\n            \"ebook_count_i\": 0,\n            \"ebook_access\": \"no_ebook\",\n            \"has_fulltext\": false,\n            \"public_scan_b\": false,\n            \"publisher\": [\n                \"Stationery Office, The\"\n            ],\n            \"language\": [\n                \"eng\"\n            ],\n            \"author_key\": [\n                \"OL4712881A\"\n            ],\n            \"author_name\": [\n                \"Great Britain\"\n            ],\n            \"publisher_facet\": [\n                \"Stationery Office, The\"\n            ],\n            \"_version_\": 1767922383150120960,\n            \"author_facet\": [\n                \"OL4712881A Great Britain\"\n            ]\n        },\n        {\n            \"key\": \"/works/OL29207495W\",\n            \"type\": \"work\",\n            \"seed\": [\n                \"/books/OL40173369M\",\n                \"/works/OL29207495W\",\n                \"/authors/OL7636662A\"\n            ],\n            \"title\": \"Boston Road Trips\",\n            \"title_suggest\": \"Boston Road Trips\",\n            \"title_sort\": \"Boston Road Trips\",\n            \"edition_count\": 1,\n            \"edition_key\": [\n                \"OL40173369M\"\n            ],\n            \"publish_date\": [\n                \"2024\"\n            ],\n            \"publish_year\": [\n                2024\n            ],\n            \"first_publish_year\": 2024,\n            \"isbn\": [\n                \"9781493075836\",\n                \"1493075837\"\n            ],\n            \"last_modified_i\": 1666229904,\n            \"ebook_count_i\": 0,\n            \"ebook_access\": \"no_ebook\",\n            \"has_fulltext\": false,\n            \"public_scan_b\": false,\n            \"publisher\": [\n                \"Globe Pequot Press, The\"\n            ],\n            \"language\": [\n                \"eng\"\n            ],\n            \"author_key\": [\n                \"OL7636662A\"\n            ],\n            \"author_name\": [\n                \"Sheila Moeschen\"\n            ],\n            \"publisher_facet\": [\n                \"Globe Pequot Press, The\"\n            ],\n            \"_version_\": 1767923771198406656,\n            \"author_facet\": [\n                \"OL7636662A Sheila Moeschen\"\n            ]\n        },\n        {\n            \"key\": \"/works/OL26763003W\",\n            \"type\": \"work\",\n            \"seed\": [\n                \"/books/OL36265966M\",\n                \"/works/OL26763003W\",\n                \"/authors/OL3132244A\",\n                \"/authors/OL2690886A\"\n            ],\n            \"title\": \"Best Hikes Boston\",\n            \"title_suggest\": \"Best Hikes Boston\",\n            \"title_sort\": \"Best Hikes Boston\",\n            \"edition_count\": 1,\n            \"edition_key\": [\n                \"OL36265966M\"\n            ],\n            \"publish_date\": [\n                \"2023\"\n            ],\n            \"publish_year\": [\n                2023\n            ],\n            \"first_publish_year\": 2023,\n            \"isbn\": [\n                \"1493046160\",\n                \"9781493046164\"\n            ],\n            \"last_modified_i\": 1640813726,\n            \"ebook_count_i\": 0,\n            \"ebook_access\": \"no_ebook\",\n            \"has_fulltext\": false,\n            \"public_scan_b\": false,\n            \"publisher\": [\n                \"Rowman & Littlefield Publishers, Incorporated\"\n            ],\n            \"language\": [\n                \"eng\"\n            ],\n            \"author_key\": [\n                \"OL3132244A\",\n                \"OL2690886A\"\n            ],\n            \"author_name\": [\n                \"Steve Mirsky\",\n                \"James Buchanan\"\n            ],\n            \"publisher_facet\": [\n                \"Rowman & Littlefield Publishers, Incorporated\"\n            ],\n            \"_version_\": 1767919731737624578,\n            \"author_facet\": [\n                \"OL2690886A James Buchanan\",\n                \"OL3132244A Steve Mirsky\"\n            ]\n        }\n    ],\n    \"num_found\": 16887,\n    \"q\": \"\",\n    \"offset\": null\n}"
+        }
+      },
+      "recorded_at": "Tue, 16 Jan 2024 16:35:34 GMT"
+    }
+  ],
+  "recorded_with": "VCR 6.2.0"
+}
