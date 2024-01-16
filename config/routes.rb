@@ -3,5 +3,9 @@ Rails.application.routes.draw do
     namespace :v0 do
       resources :forecast, only: :index
     end
+
+    namespace :v1 do
+      get 'book-search', to: 'books#search'
+    end
   end
 end
