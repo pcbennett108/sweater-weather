@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe 'Session Requests', type: :request do
   describe 'POST /api/v0/road_trip', :vcr do
     context 'with achieveable routes and valid API key' do
-      xit 'returns the road-trip info and weather at ETA' do
+      it 'returns the road-trip info and weather at ETA' do
         user = User.create!(email: "lisa@springfield.com", password: "password", password_confirmation: "password")
         params = {
           origin: "Cincinatti,OH",
